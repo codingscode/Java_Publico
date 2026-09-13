@@ -37,9 +37,7 @@ public class Tut001 {
 				uni[i] = x;
 				i += 1;
 			}
-			else {
-				continue;
-			}
+			
 		}
 		
 		return uni;
