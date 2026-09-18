@@ -45,7 +45,7 @@ public class Tut001 {
 		System.out.print("mdc: ");
 		System.out.println(mdc(n1, n2));
 		System.out.print("mmc: ");
-		System.out.println(mmc(16, 12));
+		System.out.println(mmc(n1, n2));
 		
 		
 		System.out.println("--------------------------");
@@ -65,7 +65,7 @@ public class Tut001 {
 /*
 24 e 30
 mdc: 6
-mmc: 48
+mmc: 120
 --------------------------
 tempo execução em ms: 0
 
