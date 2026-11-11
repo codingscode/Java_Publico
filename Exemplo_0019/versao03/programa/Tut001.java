@@ -27,6 +27,8 @@ public class Tut001 {
 		// nao eficiente
 		Arrays.sort(animais, Comparator.comparingInt(String::length)); 
 		
+		//reverso
+        //Arrays.sort(animais, Comparator.comparingInt(String::length).reversed());
         
         
 		System.out.println(Arrays.toString(animais));
