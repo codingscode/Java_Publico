@@ -11,8 +11,7 @@ public class Tut001 {
 	        int tamanhoAtual = atual.getNome().length();
 	        int j = i - 1;
 
-	        while (j >= 0
-	                && animais.get(j).getNome().length() > tamanhoAtual) {
+	        while (j >= 0 && animais.get(j).getNome().length() > tamanhoAtual) {
 	            animais.set(j + 1, animais.get(j));
 	            j--;
 	        }
